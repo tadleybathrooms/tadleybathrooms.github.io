@@ -1,42 +1,31 @@
-<section id="services">
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-12 text-center">
-                <h2 class="section-heading">At Your Service</h2>
-                <hr class="primary">
+<section class="page-section {{ section.background_style }}" id="{{ section.section_id }}">
+    <div class="container px-4 px-lg-5">
+      <h2 class="text-center mt-0">{{ section.title }}</h2>
+      <hr class="divider border border-primary border-2">
+      <div class="row gx-4 gx-lg-5 justify-content-center">
+        <!-- {#% assign cols = section.size | at_most: 4 %#} -->
+        {% assign cols = section.size %}
+        {% if cols > 4 %}
+          {% assign cols = 4 %}
+        {% endif %}
+  
+        {% assign colsL = 12 | divided_by: cols %}
+        {% assign colsM = colsL | times: 2 %}
+  
+        {% for service in section.services %}
+        <div class="col-lg-{{ colsL }} col-md-{{ colsM }} text-center">
+          <div class="mt-5">
+            <div class="mb-2"><i class="{{ service.icon }} bi text-primary" style="font-size: 64px;"></i></div>
+            <h3 class="h4 mb-2">{{ service.title }}</h3>
+            <div class="text-muted mb-0">
+              {{ service.text | markdownify }}
+              {% if service.url %}
+                <a href="{{ service.url }}"><i class="bi bi-link"></i></a>
+              {% endif %}
             </div>
+          </div>
         </div>
+        {% endfor %}
+      </div>
     </div>
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-3 col-md-6 text-center">
-                <div class="service-box">
-                    <i class="fa fa-4x fa-diamond wow bounceIn text-primary"></i>
-                    <h3>Sturdy Templates</h3>
-                    <p class="text-muted">Our templates are updated regularly so they don't break.</p>
-                </div>
-            </div>
-            <div class="col-lg-3 col-md-6 text-center">
-                <div class="service-box">
-                    <i class="fa fa-4x fa-paper-plane wow bounceIn text-primary" data-wow-delay=".1s"></i>
-                    <h3>Ready to Ship</h3>
-                    <p class="text-muted">You can use this theme as is, or you can make changes!</p>
-                </div>
-            </div>
-            <div class="col-lg-3 col-md-6 text-center">
-                <div class="service-box">
-                    <i class="fa fa-4x fa-newspaper-o wow bounceIn text-primary" data-wow-delay=".2s"></i>
-                    <h3>Up to Date</h3>
-                    <p class="text-muted">We update dependencies to keep things fresh.</p>
-                </div>
-            </div>
-            <div class="col-lg-3 col-md-6 text-center">
-                <div class="service-box">
-                    <i class="fa fa-4x fa-heart wow bounceIn text-primary" data-wow-delay=".3s"></i>
-                    <h3>Made with Love</h3>
-                    <p class="text-muted">You have to make your websites with love these days!</p>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
+  </section>
