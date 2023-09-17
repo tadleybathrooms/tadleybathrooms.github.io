@@ -22,8 +22,8 @@ title: Tadley Bathrooms
 email: info@tadleybathrooms.co.uk
 description: >- # this means to ignore newlines until "baseurl:"
   Tadley Bathrooms
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: "/" # the subpath of your site, e.g. /blog
+url: "tadleybathrooms.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: tadleybathrooms
 github_username:  tadleybathrooms
 
