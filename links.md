@@ -17,14 +17,13 @@ sections:
   address:
     title: Address
     text: >
-      45 Williams St,<br/>
-      Marlborough, MA 01752,<br/>
-      United States
+      18B Mulfords Hill,<br/>
+      Tadley,<br/>
+      RG26 3JE
   phone:
     title: Phones
     text: >
-      +1 (202) 555-014<br/>
-      +1 (202) 555-015
+      0118 9813777<br/>
 - type: paragraph.html
   section_id: help
   title: Get some help!

@@ -151,9 +151,9 @@ sections:
       url: mailto:info@tadleybathrooms.com
     - title: Instagram
       icon: bi-instagram
-      url: '#'
+      url: 'https://www.instagram.com/tadleybathrooms/?hl=en-gb'
     - title: Facebook
       icon: bi-facebook
-      url: '#'
+      url: 'https://www.facebook.com/tadleybathrooms/'
 
 ---
