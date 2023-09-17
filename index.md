@@ -1,12 +1,11 @@
 ---
 layout: home
 header:
-  title: YOUR FAVORITE SOURCE OF FREE BOOTSTRAP THEMES
+  title: Tadley Bathrooms
   text: >
-    Start Bootstrap can help you build better websites using the Bootstrap
-    framework! Just download a theme and start customizing, no strings attached!
+    We can help you create the perfect bathroom!
   action: # action button is optional
-    label: Find Out More
+    label: Get in touch
     url: '#about'
 
 
@@ -14,8 +13,8 @@ sections:
   - type: call-to-action.html
     section_id: about
     background_style: bg-primary
-    title: We've got what you need!
-    text: Start Bootstrap has everything you need to get your new website up and running in no time! All of the templates and themes on Start Bootstrap are open source, free to download, and easy to use. No strings attached!
+    title: How about a kitchen?
+    text: Ask us about our kitchens too!
     actions:
       - title: Get Started!
         url: '#page-top'
@@ -24,26 +23,26 @@ sections:
   - type: services.html
     section_id: services
     #background_style: bg-info
-    title: At Your Service
+    title: What we do
     services:
-      - title: Sturdy Templates
-        text: Our templates are updated regularly so they don't break.
+      - title: Bathroom Fitting
+        text: We love a bathroom.
         icon: bi-gem text-info
         url: https://startbootstrap.com/
-      - title: Ready to Ship
-        text: You can use this theme as is, or you can make changes!
+      - title: Kitchen Fitting
+        text: We also do kitchens!
         icon: bi-rocket-takeoff
-      - title: Up to Date
-        text: We update dependencies to keep things fresh.
+      - title: Plumbing
+        text: We can fix your leaky pipes.
         icon: bi-activity
-      - title: Made with Love
-        text: You have to make your websites with love these days!
+      - title: Fitted with care
+        text: You won't find better quality fitters!
         icon: bi-heart-fill
-      - title: Other 1
-        text: Some not-so long text here.
+      - title: Satisfaction guaranteed
+        text: We aren't finished until you're happy
         icon: bi-emoji-heart-eyes
-      - title: Other 2
-        text: Some not-so long text here.
+      - title: 1 Year Warranty
+        text: On all our bathrooms.
         icon: bi-emoji-sunglasses-fill
 
   - type: portfolio.html
@@ -81,7 +80,7 @@ sections:
 
   - type: aside.html
     section_id: aside
-    title: Free Download at Start Bootstrap!
+    title: Download our brochure
     actions:
       - title: Download Now!
         url: https://startbootstrap.com/themes/creative/
@@ -92,29 +91,29 @@ sections:
     title: Our Crew!
     background_style: bg-info text-white
     members:
-      - title: Christina M. Aponte
-        text: Singer and Songwriter
-        image: assets/img/members/person1.jpg
+      - title: Adam Hunt
+        text: The bumder
+        image: assets/img/members/adam.png
         url: '#'
-      - title: Gary D. Stevens
-        text: Bass guitar.
-        image: assets/img/members/person2.jpg
+      - title: Adam Hunt
+        text: The bumder
+        image: assets/img/members/adam.png
         url: '#'
-      - title: Devon J. Fletcher
-        text: Lead guitar.
-        image: assets/img/members/person3.jpg
+      - title: Adam Hunt
+        text: The bumder
+        image: assets/img/members/adam.png
         url: '#'
-      - title: Todd E. Anderson
-        text: Drums, percussion.
-        image: assets/img/members/person5.jpg
+      - title: Adam Hunt
+        text: The bumder
+        image: assets/img/members/adam.png
         url: '#'
-      - title: Daniel T. Riley
-        text: Musician, songwriter, producer.
-        image: assets/img/members/person6.jpg
+      - title: Adam Hunt
+        text: The bumder
+        image: assets/img/members/adam.png
         url: '#'
-      - title: Ella P. Walter
-        text: PR.
-        image: assets/img/members/person7.jpg
+      - title: Adam Hunt
+        text: The bumder
+        image: assets/img/members/adam.png
         url: '#'
 
   - type: timeline.html
@@ -140,18 +139,18 @@ sections:
 
   - type: contact.html
     section_id: contacts
-    title: Let's Get In Touch!
+    title: Contact us!
     text: >-
       Ready to start your next project with us? Give us a call or send us an email
       and we will get back to you as soon as possible!
     actions:
-    - title: +1 (202) 555-014
+    - title: 0118 9813777
       icon: bi-telephone-fill
     - title: E-Mail
       icon: bi-envelope-fill
-      url: mailto:contact@yourwebsite.com
-    - title: Twitter
-      icon: bi-twitter
+      url: mailto:info@tadleybathrooms.com
+    - title: Instagram
+      icon: bi-instagram
       url: '#'
     - title: Facebook
       icon: bi-facebook
