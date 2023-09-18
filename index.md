@@ -27,7 +27,7 @@ sections:
     services:
       - title: Bathroom Fitting
         text: We love a bathroom.
-        icon: bi-gem text-info
+        icon: fa-bath text-info
         url: https://startbootstrap.com/
       - title: Kitchen Fitting
         text: We also do kitchens!
