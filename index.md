@@ -1,7 +1,7 @@
 ---
 layout: home
 header:
-  title: Tadley Bathrooms
+  title: 
   text: >
     We can help you create the perfect bathroom!
   action: # action button is optional
